@@ -12,6 +12,7 @@ class Car:
     def car_price(brand, year, model, color):
         """
         fetch the car price from the api call or database.
+        Car price is not related with any car instance or object.
         """
         print("staticmethod ->", brand, year, model, color)
         return 50000
